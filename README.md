@@ -298,6 +298,10 @@ Para recarregar depois de editar o código, desative e ative a extensão em
 - Janelas soltas no meio da tela, mesmo pequenas, também são obstáculos e
   podem reduzir bastante o espaço livre.
 
+## Desenvolvimento e Créditos
+
+Este projeto foi idealizado, arquitetado e validado por **Wesley Prado**. O desenvolvimento do código, a refatoração geométrica e a estruturação dos manifestos foram realizados em parceria colaborativa com agentes autônomos de Inteligência Artificial (**Claude Code Pro**).
+
 ## Licença
 
 Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
