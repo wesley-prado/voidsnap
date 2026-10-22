@@ -1,0 +1,46 @@
+{
+    "header-preview": {
+        "type": "header",
+        "description": "Preview neon"
+    },
+    "neon-color": {
+        "type": "colorchooser",
+        "default": "rgb(0,229,255)",
+        "description": "Cor do neon (borda e brilho)",
+        "tooltip": "Cor da borda e do brilho do retângulo de preview"
+    },
+    "background-opacity": {
+        "type": "scale",
+        "default": 35,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "show-value": true,
+        "description": "Opacidade do fundo (%)",
+        "tooltip": "0% = fundo totalmente transparente; 100% = fundo escuro sólido"
+    },
+    "animation-ms": {
+        "type": "spinbutton",
+        "default": 160,
+        "min": 0,
+        "max": 2000,
+        "step": 10,
+        "units": "ms",
+        "description": "Duração da animação do preview",
+        "tooltip": "Tempo da transição quando o preview muda de tamanho ou posição (0 = sem animação)"
+    },
+    "header-snap": {
+        "type": "header",
+        "description": "Snap"
+    },
+    "min-free-px": {
+        "type": "spinbutton",
+        "default": 200,
+        "min": 0,
+        "max": 2000,
+        "step": 10,
+        "units": "px",
+        "description": "Espaço livre mínimo",
+        "tooltip": "Se a área livre sob o ponteiro for mais estreita ou mais baixa que isto, o snap usa a tela inteira"
+    }
+}
