@@ -24,7 +24,7 @@ nenhuma.
 Requer Cinnamon 6.0 a 6.6.
 
 ```sh
-git clone <url-do-repositório> ~/.local/share/cinnamon/extensions/voidsnap@wesleyprado.com
+git clone https://github.com/wesley-prado/voidsnap ~/.local/share/cinnamon/extensions/voidsnap@wesleyprado.com
 ```
 
 O nome da pasta precisa ser igual ao `uuid` do `metadata.json`
